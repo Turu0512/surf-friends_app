@@ -14,7 +14,7 @@ development:
   <<: *default
   username: root
   password: password
-  host: localhost
+  host: db
   database: mysql_development
 
 # Warning: The database defined as "test" will be erased and
@@ -24,7 +24,7 @@ test:
   <<: *default
   username: root
   password: password
-  host: localhost
+  host: db
   database: mysql_test
 
 production:
